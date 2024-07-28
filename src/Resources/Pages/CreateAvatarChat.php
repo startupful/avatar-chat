@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\AvatarChat\Resources\Pages;
+namespace Startupful\AvatarChat\Resources\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
-use Filament\AvatarChat\Resources\AvatarChatResource;
+use Startupful\AvatarChat\Resources\AvatarChatResource;
 
 class CreateAvatarChat extends CreateRecord
 {

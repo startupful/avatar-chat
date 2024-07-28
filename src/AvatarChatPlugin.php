@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\AvatarChat;
+namespace Startupful\AvatarChat;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;

@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Filament\AvatarChat\Http\Controllers\AvatarController;
-use Filament\AvatarChat\Http\Controllers\AvatarChatController;
+use Startupful\AvatarChat\Http\Controllers\AvatarController;
+use Startupful\AvatarChat\Http\Controllers\AvatarChatController;
 use Illuminate\Support\Facades\Auth;
 
 Route::middleware(['web'])->group(function () {

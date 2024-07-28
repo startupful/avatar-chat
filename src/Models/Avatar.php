@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\AvatarChat\Models;
+namespace Startupful\AvatarChat\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

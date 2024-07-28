@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\AvatarChat;
+namespace Startupful\AvatarChat;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Facades\FilamentAsset;
@@ -10,7 +10,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Livewire\Livewire;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationGroup;
-use Filament\AvatarChat\Resources\AvatarChatResource;
+use Startupful\AvatarChat\Resources\AvatarChatResource;
 
 class AvatarChatServiceProvider extends PackageServiceProvider
 {

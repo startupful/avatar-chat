@@ -1,11 +1,11 @@
 <?php
 
-namespace Filament\AvatarChat\Resources;
+namespace Startupful\AvatarChat\Resources;
 
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Forms;
-use Filament\AvatarChat\Models\Avatar;
+use Startupful\AvatarChat\Models\Avatar;
 use Illuminate\Database\Eloquent\Builder;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Section;

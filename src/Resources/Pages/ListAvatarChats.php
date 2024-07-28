@@ -1,8 +1,8 @@
 <?php
 
-namespace Filament\AvatarChat\Resources\Pages;
+namespace Startupful\AvatarChat\Resources\Pages;
 
-use Filament\AvatarChat\Resources\AvatarChatResource;
+use Startupful\AvatarChat\Resources\AvatarChatResource;
 use Filament\Resources\Pages\ListRecords;
 use Filament\Actions;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\AvatarChat\Http\Controllers;
+namespace Startupful\AvatarChat\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Filament\AvatarChat\Models\Avatar;
+use Startupful\AvatarChat\Models\Avatar;
 
 class AvatarController
 {

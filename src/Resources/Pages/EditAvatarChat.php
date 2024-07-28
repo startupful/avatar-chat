@@ -1,10 +1,10 @@
 <?php
 
-namespace Filament\AvatarChat\Resources\Pages;
+namespace Startupful\AvatarChat\Resources\Pages;
 
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
-use Filament\AvatarChat\Resources\AvatarChatResource;
+use Startupful\AvatarChat\Resources\AvatarChatResource;
 use Filament\Forms\Components\FileUpload;
 use Illuminate\Support\Facades\Storage;
 

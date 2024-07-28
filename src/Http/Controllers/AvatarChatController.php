@@ -1,12 +1,12 @@
 <?php
 
-namespace Filament\AvatarChat\Http\Controllers;
+namespace Startupful\AvatarChat\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Filament\AvatarChat\Models\Avatar;
-use Filament\AvatarChat\Models\AvatarChat;
+use Startupful\AvatarChat\Models\Avatar;
+use Startupful\AvatarChat\Models\AvatarChat;
 use OpenAI\Laravel\Facades\OpenAI;
 
 class AvatarChatController

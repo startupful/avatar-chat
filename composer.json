@@ -2,7 +2,7 @@
     "name": "startupful/avatar-chat",
     "description": "A Filament plugin for avatar chat features",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -13,13 +13,16 @@
         "laravel": {
             "providers": [
                 "Startupful\\AvatarChat\\AvatarChatServiceProvider"
+            ],
+            "commands": [
+                "Startupful\\AvatarChat\\Commands\\AvatarChatInstallCommand"
             ]
         }
     },
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
-        "laravel/framework": "^11.0"
+        "filament/filament": "^2.0|^3.0",
+        "laravel/framework": "^10.0|^11.0"
     },
     "minimum-stability": "stable", 
     "prefer-stable": true 

@@ -7,4 +7,4 @@
 1. Composer를 통해 패키지를 설치합니다:
 
 ```bash
-composer require filament/avatar-chat
+composer require startupful/avatar-chat

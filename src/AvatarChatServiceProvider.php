@@ -12,7 +12,6 @@ use Livewire\Livewire;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationGroup;
 use Startupful\AvatarChat\Resources\AvatarChatResource;
-use Startupful\AvatarChat\Commands\AvatarChatInstallCommand;
 
 class AvatarChatServiceProvider extends PackageServiceProvider
 {
@@ -23,8 +22,7 @@ class AvatarChatServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasViews()
             ->hasTranslations()
-            ->hasMigrations(['2024_07_25_000000_create_avatar_chat_tables'])
-            ->hasCommand(AvatarChatInstallCommand::class);
+            ->hasMigrations(['2024_07_25_000000_create_avatar_chat_tables']);
     }
 
     public function packageBooted(): void

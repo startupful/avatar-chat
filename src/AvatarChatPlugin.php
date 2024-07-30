@@ -22,9 +22,7 @@ class AvatarChatPlugin implements Plugin
 
     public function boot(Panel $panel): void
     {
-        $this->publishesMigrations([
-            __DIR__.'/../database/migrations' => database_path('migrations'),
-        ]);
+        //
     }
 
     public static function make(): static

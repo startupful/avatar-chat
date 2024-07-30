@@ -17,14 +17,12 @@ class AvatarChatServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'avatar-chat';
 
-    public $migrationPath = __DIR__ . '/../database/migrations';
-
     public function configurePackage(Package $package): void
     {
         $package->name(static::$name)
             ->hasViews()
             ->hasTranslations()
-            ->hasMigrations(['create_avatar_chat_tables.php']);
+            ->hasMigrations();
     }
 
     public function packageBooted(): void

@@ -13,9 +13,6 @@
         "laravel": {
             "providers": [
                 "Startupful\\AvatarChat\\AvatarChatServiceProvider"
-            ],
-            "commands": [
-                "Startupful\\AvatarChat\\Commands\\AvatarChatInstallCommand"
             ]
         }
     },

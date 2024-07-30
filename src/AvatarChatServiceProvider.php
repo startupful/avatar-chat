@@ -22,7 +22,7 @@ class AvatarChatServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasViews()
             ->hasTranslations()
-            ->hasMigrations()
+            ->hasMigration('create_avatar_chat_tables')
             ->runsMigrations();
     }
 

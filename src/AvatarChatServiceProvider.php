@@ -41,6 +41,11 @@ class AvatarChatServiceProvider extends PackageServiceProvider
         // );
     }
 
+    public function boot()
+    {
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+    }
+
     protected function bootLivewireComponents(): string
     {
         return '';

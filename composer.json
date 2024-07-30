@@ -2,7 +2,7 @@
     "name": "startupful/avatar-chat",
     "description": "A Filament plugin for avatar chat features",
     "type": "library",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "license": "MIT",
     "autoload": {
         "psr-4": {

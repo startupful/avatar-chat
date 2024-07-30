@@ -22,7 +22,8 @@ class AvatarChatServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasViews()
             ->hasTranslations()
-            ->hasMigrations();
+            ->hasMigrations()
+            ->runsMigrations();
     }
 
     public function packageBooted(): void

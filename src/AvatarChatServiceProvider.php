@@ -43,7 +43,9 @@ class AvatarChatServiceProvider extends PackageServiceProvider
 
     public function boot()
     {
+        parent::boot(); // PackageServiceProvider의 boot 메서드 호출
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 
     protected function bootLivewireComponents(): string
